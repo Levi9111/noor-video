@@ -37,7 +37,6 @@ export const NoorLyricVideo: React.FC = () => {
           from={scene.startFrame}
           durationInFrames={scene.durationInFrames}
           name={`[${scene.section}] ${scene.text.substring(0, 16)}...`}
-          hidden
         >
           <LyricScene data={scene} />
         </Sequence>
